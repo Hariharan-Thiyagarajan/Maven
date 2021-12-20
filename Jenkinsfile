@@ -1,5 +1,5 @@
 pipeline{
-   agent{label 'window'}
+   agent any
    stages{
    stage('Hello from github'){
    steps{
